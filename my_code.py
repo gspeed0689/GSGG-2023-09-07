@@ -2,10 +2,8 @@ def power(x, y):
     """Exponent function
 
     Args:
-        x (int): Any positive integer
-        y (int): Any positive integer
+        x (num): Any numeric
+        y (num): Any numeric
     """
-    rv = x # rv = return value
-    for i in range(y):
-        rv = rv * x
+    rv = x ** y
     return(rv)
